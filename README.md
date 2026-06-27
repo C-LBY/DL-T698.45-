@@ -105,8 +105,8 @@ apdu[2..5]= 4 字节 OID
 ### 安装
 
 ```bash
-git clone https://github.com/<your-name>/dlt698-tool.git
-cd dlt698-tool
+git clone https://github.com/C-LBY/DL-T698.45-.git
+cd DL-T698.45-
 ```
 
 Linux 若缺少 tkinter：
@@ -134,7 +134,6 @@ python3 dlt698_tool.py
 ```
 .
 ├── dlt698_tool.py        # 主程序（GUI + 协议编解码）
-├── DLT698.45-2017.pdf    # 协议标准参考文档
 └── README.md
 ```
 
